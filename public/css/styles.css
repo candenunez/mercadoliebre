@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+
+header div.logo{  /*esta clase solo puede estar en el header*/
+    padding: 5px;
+    background-color: #EAC926;
+    width: 50%;
+
+}
+header{
+    background-color: #EAC926;
+    
+    flex-wrap: wrap;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -2%;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+header nav ul{
+    display: flex;
+    margin: 0px 10px 0px;
+}
+header nav a{
+    margin: 10px;
+    font-size: 16px;
+}
+input{
+        background-color: #FFF;
+        border: 1px solid #000;
+        color: #666;
+        padding: 2px;
+    }
+#encabezado{
+        text-align: center
+    }
+    
+.menu{
+    text-align: center;
+}
+div.menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+section.banner{
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+.views {
+    box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+}
+
+.lupa{
+    display:inline-block
+}
+h1{ font-size: 14px; }
+
+.precio{
+    font-size: 18px;
+    width: 70%;
+    
+}
+.descuento{
+    font-size: 16px;
+    color: #39b54a
+}
+.nombre{
+    font-size: 16px;
+    display: none;
+    margin-top: 20px;
+}
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i{
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 80%;
+    position: relative;
+    left: 90%;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+main section div.productos article i{
+    transition: transform 1s;
+}
+
+main section div.productos article:hover i{
+    transform: rotate(-90deg);
+}
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.login input[type='submit']:hover,
+.register input[type='submit']:hover{
+    background-color: #0022AA;
+}
+
+@media (min-width: 361px){
+    main section div.productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+}
+@media (min-width: 769px){
+    main section div.productos article{
+        width: 22%;
+
+    }
+}
+footer{
+    background-color: #FFF ;
+    text-align: center;
+}
+
+.titulo-f{
+   color: #666
+}
+footer section div.texto-footer i{
+    background-color:c;
+    border-radius: 5px;
+    color:#0044AA ;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
